@@ -1,6 +1,12 @@
+import { useState } from 'react'
 import './BasicInfo.css'
 
 const BasicInfo = () => {
+    const [val,setVal] = useState(0)
+
+    function abc(){
+        setVal(1)
+    }
   return (
     <div className='card'>
         <h1>Inshiya Ravat</h1>
@@ -18,6 +24,7 @@ const BasicInfo = () => {
                 </li>
             </ul>
         </p>
+        <button onClick={abc} style={{color:'black'}}>{val}</button>
     </div>
   )
 }
