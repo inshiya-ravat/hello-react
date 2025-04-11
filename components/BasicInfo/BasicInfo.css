@@ -1,0 +1,11 @@
+*{
+    color: white;
+}
+.card{
+    background-color: black;
+    border-radius: 20px;
+    box-shadow: 3px 3px 10px rgb(37, 37, 37);
+}
+li{
+    list-style: none;
+}
